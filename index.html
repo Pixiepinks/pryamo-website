@@ -26,19 +26,13 @@
         <div class="hero-actions"><a class="btn primary" href="#contact">Start Your Project</a><a class="btn secondary" href="#services">Explore Services</a></div>
         <div class="hero-stats"><div><strong>500+</strong><span>Projects Delivered</span></div><div><strong>200+</strong><span>Happy Clients</span></div><div><strong>10+</strong><span>Years Experience</span></div><div><strong>24/7</strong><span>Support</span></div></div>
       </div>
-      <div class="orbit-stage" aria-label="Orbiting PRYAMO service carousel">
-        <div class="stars"></div><div class="ring ring-1"></div><div class="ring ring-2"></div><div class="ring ring-3"></div>
+      <div class="orbit-stage" id="orbitStage" aria-label="Digital solar system of PRYAMO services">
+        <div class="stars" aria-hidden="true"></div>
+        <div class="ring ring-outer" aria-hidden="true"></div>
+        <div class="ring ring-inner" aria-hidden="true"></div>
         <div class="core"><span class="core-icon">✦</span><strong>PRYAMO</strong><span>Digital Transformation Core</span></div>
-        <div class="planet-orbit" style="--i:0;--delay:0s"><div class="planet"><b>⌘</b><span>Web Development</span></div></div>
-        <div class="planet-orbit" style="--i:1;--delay:-3.2s"><div class="planet"><b>▦</b><span>ERP Systems</span></div></div>
-        <div class="planet-orbit" style="--i:2;--delay:-6.4s"><div class="planet"><b>◎</b><span>AI Solutions</span></div></div>
-        <div class="planet-orbit" style="--i:3;--delay:-9.6s"><div class="planet"><b>▣</b><span>Mobile Apps</span></div></div>
-        <div class="planet-orbit" style="--i:4;--delay:-12.8s"><div class="planet"><b>☁</b><span>Cloud Solutions</span></div></div>
-        <div class="planet-orbit" style="--i:5;--delay:-16s"><div class="planet"><b>◈</b><span>Cybersecurity</span></div></div>
-        <div class="planet-orbit" style="--i:6;--delay:-19.2s"><div class="planet"><b>↻</b><span>Automation</span></div></div>
-        <div class="planet-orbit" style="--i:7;--delay:-22.4s"><div class="planet"><b>◬</b><span>Data Analytics</span></div></div>
-        <div class="planet-orbit" style="--i:8;--delay:-25.6s"><div class="planet"><b>🛒</b><span>E-commerce</span></div></div>
-        <div class="planet-orbit" style="--i:9;--delay:-28.8s"><div class="planet"><b>✧</b><span>IT Consulting</span></div></div>
+        <div class="orbit-planets" id="orbitPlanets"></div>
+        <aside class="orbit-panel" id="orbitPanel" aria-live="polite"></aside>
       </div>
     </section>
 
