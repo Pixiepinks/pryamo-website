@@ -1,3 +1,12 @@
+const logo = document.getElementById('siteLogo');
+const logoPath = '/assets/logos/pryamo-logo.png';
+const logoImage = new Image();
+logoImage.onload = () => {
+  logo.replaceChildren(logoImage);
+};
+logoImage.src = logoPath;
+logoImage.alt = 'PRYAMO';
+
 const services = [
   ['Website Development', 'High-performance websites, portals, and web apps built to convert and scale.'],
   ['ERP System Development', 'Custom ERP platforms that connect every department into one reliable system.'],
